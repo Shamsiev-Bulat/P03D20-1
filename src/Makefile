@@ -3,6 +3,7 @@ all: main.o
 
 clean:
 	rm -rf ../**/*.o
+	rm -rf ../**/*.out
 	rm -rf ../build/graph
 
 rebuild: clean
